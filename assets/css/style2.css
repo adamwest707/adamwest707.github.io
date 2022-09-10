@@ -1,0 +1,27 @@
+/*RESET browser default CSS inpterpreter*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	background-color: azure;
+}
+/*CSS styling starts here :-)*/
+
+table {
+	border: 1px solid red;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.left-block {
+	border: 1px solid rgb(39, 182, 10);
+}
+
+.right-block {
+	border: 1px solid rgb(110, 38, 224);
+	background-color: aqua;
+	xmargin: 100px;
+	padding: 100px;
+}

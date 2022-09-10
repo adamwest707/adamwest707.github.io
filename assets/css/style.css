@@ -1,0 +1,156 @@
+/*RESET browser default CSS inpterpreter*/
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+/*CSS styling starts here :-)*/
+
+#body {
+	background-color: #DAE4E6;
+}
+
+h1, h2, h3, .labels, .link, input, button, p {
+	font-family: PT Sans;
+}
+
+h1 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+h2 {
+	color: black;
+	display: inline-block;
+	font-weight: bold;
+}
+
+h3, .createaccount {
+	color: rgb(116, 116, 116);
+}
+
+.project-name {
+	position: absolute;
+	top: 80px;
+	left: 220px;
+	z-index: 1;
+}
+
+#color-text {
+	color: #016976;
+	padding-left: 6px;
+}
+
+#circle {
+	height: 12px;
+	width: 12px;
+	background-color: #016976;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.link {
+	font-weight: bold;
+	color: #016976;
+	cursor: pointer;
+}
+
+.buttons {
+	border: none;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;
+	cursor: pointer;
+	padding: 10px 0px;
+}
+
+#button1 {
+	background-color: #016976;
+	color: white;
+	font-weight: bold;
+	margin-top: 14px;
+	margin-bottom: 12px;
+}
+
+#button2 {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	border: 2px solid rgb(240, 240, 240);
+	font-weight: bold;
+}
+
+.createaccount {
+	text-align: center;
+	padding: 30px 0px;
+}
+
+.content-blocks, .left-block, .right-block {
+	margin: 0px 100px;
+}
+
+.content-blocks {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 6px;
+	background-color: #DAE4E6;
+	border-collapse: separate;    /*this is by default value of border-collapse property - https://stackoverflow.com/questions/22105751/css-table-row-background-color-fill-all-padding-space*/
+    border-spacing: 0px;    /*this will remove unneccessary white space between table cells and between table cell and table border - https://stackoverflow.com/questions/22105751/css-table-row-background-color-fill-all-padding-space*/
+}
+
+.left-block {
+	top: 50px;
+	left: 50px;
+	overflow: auto;
+	width: 340px;
+	background-color: #ffffff;
+	border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+	padding: 120px 220px;
+}
+
+.right-block {
+	top: 50px;
+	left: 50px;
+	overflow: auto;
+	width: 340px;
+	background-color: #F0F4F3;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+	padding: 120px 71px;
+}
+
+#purple-circle {
+	align-content: center;
+}
+
+#email, #password {
+	margin-bottom: 6px;
+}
+
+input[type=email], input[type=password] {
+	width: 334px;
+	border: 2px solid rgb(240, 240, 240);
+	border-radius: 6px;
+	display: inline-block;
+	padding: 12px 0px;
+	margin-top: 6px;
+}
+
+/*Align to left and rigth solution source: https://css-tricks.com/left-align-and-right-align-text-on-the-same-line/ */
+.remember {
+	float: left;
+}
+.forgotpwd {
+	float: right;
+}
+
+.email, .password, .remember, .forgotpwd, h3 {
+	padding: 16px 0px;
+}
+
